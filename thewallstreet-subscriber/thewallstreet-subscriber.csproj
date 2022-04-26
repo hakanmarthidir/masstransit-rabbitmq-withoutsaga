@@ -17,7 +17,7 @@
     <Folder Include="Consumer\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SharedKernel\SharedKernel.csproj">
+    <ProjectReference Include="..\SharedKernel\SharedKernel.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

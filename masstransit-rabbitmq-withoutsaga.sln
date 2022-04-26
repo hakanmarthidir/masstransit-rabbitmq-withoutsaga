@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsConsumer", "NewsConsume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newyorktimes-subscriber", "newyorktimes-subscriber\newyorktimes-subscriber.csproj", "{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thewallstreet-subscriber", "Subscribers\thewallstreet-subscriber\thewallstreet-subscriber.csproj", "{3BB28796-AA3F-46DC-998E-3C326707A393}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thewallstreet-subscriber", "thewallstreet-subscriber\thewallstreet-subscriber.csproj", "{3BB28796-AA3F-46DC-998E-3C326707A393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
