@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News-API", "News-API\News-API.csproj", "{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscribers", "Subscribers", "{676887A2-A766-470E-9D34-D22DBAF03F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3770E41B-FE3E-4E0E-B6D7-309487C3C562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{F5E651C1-579C-48EB-AD19-BACCC6CC90C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{1E9B7727-8237-4665-A8D9-302C494472A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{67ABB709-7325-49AD-8B22-1247DB0742B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsConsumer", "NewsConsumer\NewsConsumer.csproj", "{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newyorktimes-subscriber", "newyorktimes-subscriber\newyorktimes-subscriber.csproj", "{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thewallstreet-subscriber", "Subscribers\thewallstreet-subscriber\thewallstreet-subscriber.csproj", "{3BB28796-AA3F-46DC-998E-3C326707A393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67ABB709-7325-49AD-8B22-1247DB0742B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67ABB709-7325-49AD-8B22-1247DB0742B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67ABB709-7325-49AD-8B22-1247DB0742B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67ABB709-7325-49AD-8B22-1247DB0742B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB28796-AA3F-46DC-998E-3C326707A393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB28796-AA3F-46DC-998E-3C326707A393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB28796-AA3F-46DC-998E-3C326707A393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB28796-AA3F-46DC-998E-3C326707A393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A10D1F3F-464F-4138-87C9-1913F38D36D7}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A19C5D5-210B-49BD-BFB9-EDC4D43D40F6} = {3770E41B-FE3E-4E0E-B6D7-309487C3C562}
+		{67ABB709-7325-49AD-8B22-1247DB0742B5} = {1E9B7727-8237-4665-A8D9-302C494472A2}
+		{7375EB5B-E044-4E43-AED5-1C99BF6BE0D2} = {F5E651C1-579C-48EB-AD19-BACCC6CC90C6}
+		{E66502D4-EA1C-4C26-9F51-AB6BBBDF7C87} = {676887A2-A766-470E-9D34-D22DBAF03F91}
+		{3BB28796-AA3F-46DC-998E-3C326707A393} = {676887A2-A766-470E-9D34-D22DBAF03F91}
+	EndGlobalSection
+EndGlobal
